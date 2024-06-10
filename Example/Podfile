@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SumFinder_Example' do
+  pod 'SumFinder', :path => '../'
+
+  target 'SumFinder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
