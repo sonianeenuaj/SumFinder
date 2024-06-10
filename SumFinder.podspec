@@ -31,6 +31,8 @@ it will perform addition of two numbers
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SumFinder/Classes/**/*'
+  s.swift_versions = ['5.0']
+
   
   # s.resource_bundles = {
   #   'SumFinder' => ['SumFinder/Assets/*.png']
