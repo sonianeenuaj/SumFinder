@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		213F912F5DE64CE29FB274CF772DE0DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		411CF92458405BD18374BB838465495D /* SumFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269DE8DE14957FD2B11B1434F245669B /* SumFinder.swift */; };
 		43DEA117DD9BF0DE78DEF1AA922ACFE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		694D09E81D967BE1D1F9DD92968D7482 /* SumFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1189A8358614C34FC97AF94902BF5925 /* SumFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		558A66ED88E8778C3CBA2FADBADC20EF /* SumFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7325A5DBCAE09693782C1585518D748D /* SumFinder-dummy.m */; };
+		694D09E81D967BE1D1F9DD92968D7482 /* SumFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C383CCD14E97F1B141915D9103F57B9 /* SumFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CCEEB44DC84B684B98DE203FAF58CD3 /* Pods-SumFinder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9695D97863620F2011B612ADDD85DC54 /* Pods-SumFinder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F150FDE8B5090CCACD4E537A05A8F21 /* Pods-SumFinder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8AB44053D129085DEEAC7C3025439F2 /* Pods-SumFinder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9014002E2C1709B200014A38 /* SumFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9014002D2C1709B200014A38 /* SumFinder.swift */; };
-		A3059B584FB14D5946C6BA8E18102D4B /* SumFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEC7EB6FAF0DC1BFA0695D48E51491 /* SumFinder-dummy.m */; };
 		A48CC2D60BB655DFEAE9B31B857F9FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A9F124464A35A903B205A7D7CF7CF2FB /* Pods-SumFinder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C452624E92567D74BEA841F26793BD /* Pods-SumFinder_Tests-dummy.m */; };
 		F3851E88B5300BB48C8327368B0109BE /* Pods-SumFinder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F12C33E669B800554566DF29B42FC2 /* Pods-SumFinder_Example-dummy.m */; };
@@ -37,39 +37,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1189A8358614C34FC97AF94902BF5925 /* SumFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SumFinder-umbrella.h"; sourceTree = "<group>"; };
-		2112326BCE68EE2062F560931CE3330A /* SumFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SumFinder.release.xcconfig; sourceTree = "<group>"; };
 		22F9B8E43F6D316BF815ECBC50A1EDC0 /* Pods-SumFinder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SumFinder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		269DE8DE14957FD2B11B1434F245669B /* SumFinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SumFinder.swift; path = SumFinder/Classes/SumFinder.swift; sourceTree = "<group>"; };
 		305FFA11D692C52ED3548674A2B7B7CA /* Pods-SumFinder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SumFinder_Tests.modulemap"; sourceTree = "<group>"; };
+		32CC295A3DA1B4CC0A23E03B74F8749B /* SumFinder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SumFinder-prefix.pch"; sourceTree = "<group>"; };
 		32D9F355810DFF1671E0D9DFD8F7FCA6 /* Pods-SumFinder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SumFinder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		35749D21C020F123A67E16A85C44CBC8 /* Pods-SumFinder_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SumFinder_Example"; path = Pods_SumFinder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C383CCD14E97F1B141915D9103F57B9 /* SumFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SumFinder-umbrella.h"; sourceTree = "<group>"; };
 		4386E88D5DC602446D9C392142807EC0 /* Pods-SumFinder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SumFinder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		44CEC7EB6FAF0DC1BFA0695D48E51491 /* SumFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SumFinder-dummy.m"; sourceTree = "<group>"; };
 		46FC52EFE40A18379E898F85A2A57BB2 /* Pods-SumFinder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SumFinder_Example.modulemap"; sourceTree = "<group>"; };
 		4F5409997D459518D9966CF8048F4132 /* Pods-SumFinder_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SumFinder_Tests"; path = Pods_SumFinder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5972E3FB0E2EA1C74F6FD977BA5235F0 /* SumFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SumFinder.debug.xcconfig; sourceTree = "<group>"; };
 		5E89B015876332EC1A14F751504F287E /* SumFinder */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SumFinder; path = SumFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		604315AE3D0B452FCC96A377DDBE1AF6 /* Pods-SumFinder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SumFinder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		62C452624E92567D74BEA841F26793BD /* Pods-SumFinder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SumFinder_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74003DF827DE8280966B09ADCC38C2DF /* SumFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SumFinder.debug.xcconfig; sourceTree = "<group>"; };
-		74A5E8873C7055D5A002EDE4A79F7800 /* SumFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SumFinder.modulemap; sourceTree = "<group>"; };
-		9014002D2C1709B200014A38 /* SumFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SumFinder.swift; path = SumFinder/Classes/SumFinder.swift; sourceTree = "<group>"; };
-		90CA6AAFB747E9709BB7D1FD57C091A1 /* SumFinder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SumFinder-prefix.pch"; sourceTree = "<group>"; };
+		7325A5DBCAE09693782C1585518D748D /* SumFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SumFinder-dummy.m"; sourceTree = "<group>"; };
+		7B024363BB764A9A90271081BB3741FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9420491C8E80DEE7F85E206F08770226 /* SumFinder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SumFinder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9541C9B1CC8FC535F3ACDDA0CF2F37E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		965BA264B540E716CF4647AD1AF499A3 /* Pods-SumFinder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SumFinder_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9695D97863620F2011B612ADDD85DC54 /* Pods-SumFinder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SumFinder_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E8B4B9C7F9E33F08F12086D01DA459C /* SumFinder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SumFinder-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F1ED20A1695DC29F2BDCB2CB91D239F /* Pods-SumFinder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SumFinder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A50AD232EC9AE63ED51D3C7ABAD52987 /* Pods-SumFinder_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SumFinder_Tests-Info.plist"; sourceTree = "<group>"; };
 		B61AE36FA00ACB875B3069DB0E60B412 /* Pods-SumFinder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SumFinder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA7D4105FD7F14C6D4FF5EE46DE18A98 /* Pods-SumFinder_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SumFinder_Example-Info.plist"; sourceTree = "<group>"; };
-		BFA8F35E08759D8211034F0BCFF60F48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C9CABAB10A40F9B8E172FA8ED862E51C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BC3B7105203506DFDE87B456FD95BB44 /* SumFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SumFinder.modulemap; sourceTree = "<group>"; };
 		C9CCE8E2A4F3F6374CEC544209154ECC /* Pods-SumFinder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SumFinder_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DD491B7ED08B630C15BFB1EA049F2F30 /* SumFinder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SumFinder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DA90626D713F8EBA608BE94B4A69404A /* SumFinder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SumFinder-Info.plist"; sourceTree = "<group>"; };
 		E6F12C33E669B800554566DF29B42FC2 /* Pods-SumFinder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SumFinder_Example-dummy.m"; sourceTree = "<group>"; };
 		F18DC2CE9DCC629AB12DB0138028B0AE /* Pods-SumFinder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SumFinder_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8AB44053D129085DEEAC7C3025439F2 /* Pods-SumFinder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SumFinder_Example-umbrella.h"; sourceTree = "<group>"; };
+		FF2269073D96FA2FEA1FEA6FCECAE357 /* SumFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SumFinder.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,15 +134,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7697AFE23A77953319612B5F9F4C41A9 /* SumFinder */ = {
+		77CF3D5A95EE35E62EB8C3C7E9077613 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FE04A5D263E1B1ADB96042584A6D0DAF /* Pod */,
-				BD46AF89EB8DF91F3CE39B75819704E1 /* Support Files */,
-				9014002D2C1709B200014A38 /* SumFinder.swift */,
+				9541C9B1CC8FC535F3ACDDA0CF2F37E5 /* LICENSE */,
+				7B024363BB764A9A90271081BB3741FD /* README.md */,
+				9420491C8E80DEE7F85E206F08770226 /* SumFinder.podspec */,
 			);
-			name = SumFinder;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7B447E7182FD998FBF6C3FD21C96B035 /* Products */ = {
@@ -158,21 +157,21 @@
 		97B7F01FD43314010C249A52B1AFA352 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7697AFE23A77953319612B5F9F4C41A9 /* SumFinder */,
+				D809C010F9F2CFFEABEDA2B85BC26380 /* SumFinder */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BD46AF89EB8DF91F3CE39B75819704E1 /* Support Files */ = {
+		B9DFD1C0D0D93C14DF2FF94606A309F4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				74A5E8873C7055D5A002EDE4A79F7800 /* SumFinder.modulemap */,
-				44CEC7EB6FAF0DC1BFA0695D48E51491 /* SumFinder-dummy.m */,
-				9E8B4B9C7F9E33F08F12086D01DA459C /* SumFinder-Info.plist */,
-				90CA6AAFB747E9709BB7D1FD57C091A1 /* SumFinder-prefix.pch */,
-				1189A8358614C34FC97AF94902BF5925 /* SumFinder-umbrella.h */,
-				74003DF827DE8280966B09ADCC38C2DF /* SumFinder.debug.xcconfig */,
-				2112326BCE68EE2062F560931CE3330A /* SumFinder.release.xcconfig */,
+				BC3B7105203506DFDE87B456FD95BB44 /* SumFinder.modulemap */,
+				7325A5DBCAE09693782C1585518D748D /* SumFinder-dummy.m */,
+				DA90626D713F8EBA608BE94B4A69404A /* SumFinder-Info.plist */,
+				32CC295A3DA1B4CC0A23E03B74F8749B /* SumFinder-prefix.pch */,
+				3C383CCD14E97F1B141915D9103F57B9 /* SumFinder-umbrella.h */,
+				5972E3FB0E2EA1C74F6FD977BA5235F0 /* SumFinder.debug.xcconfig */,
+				FF2269073D96FA2FEA1FEA6FCECAE357 /* SumFinder.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SumFinder";
@@ -197,6 +196,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D809C010F9F2CFFEABEDA2B85BC26380 /* SumFinder */ = {
+			isa = PBXGroup;
+			children = (
+				269DE8DE14957FD2B11B1434F245669B /* SumFinder.swift */,
+				77CF3D5A95EE35E62EB8C3C7E9077613 /* Pod */,
+				B9DFD1C0D0D93C14DF2FF94606A309F4 /* Support Files */,
+			);
+			name = SumFinder;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		F2590CE0581ACC8BF56E43065343D43E /* Pods-SumFinder_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,16 +221,6 @@
 			);
 			name = "Pods-SumFinder_Tests";
 			path = "Target Support Files/Pods-SumFinder_Tests";
-			sourceTree = "<group>";
-		};
-		FE04A5D263E1B1ADB96042584A6D0DAF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BFA8F35E08759D8211034F0BCFF60F48 /* LICENSE */,
-				C9CABAB10A40F9B8E172FA8ED862E51C /* README.md */,
-				DD491B7ED08B630C15BFB1EA049F2F30 /* SumFinder.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +258,7 @@
 			buildConfigurationList = E4FB21274B128507DAFBD09FDA9E67BB /* Build configuration list for PBXNativeTarget "SumFinder" */;
 			buildPhases = (
 				8B1342674E9858DBC76058656845DB9D /* Headers */,
-				B1C376F621955BE1A598A01ABD15B542 /* Sources */,
+				F291FF0EAAF1158939D65E22A31AEF19 /* Sources */,
 				9998A210E77356D67533BDE66732DE9B /* Frameworks */,
 				9EB41D229C12D7BA847405BED26E7F66 /* Resources */,
 			);
@@ -371,20 +371,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1C376F621955BE1A598A01ABD15B542 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9014002E2C1709B200014A38 /* SumFinder.swift in Sources */,
-				A3059B584FB14D5946C6BA8E18102D4B /* SumFinder-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E0735CB0CF0CD5C731CEAB43E50CFF14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A9F124464A35A903B205A7D7CF7CF2FB /* Pods-SumFinder_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F291FF0EAAF1158939D65E22A31AEF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411CF92458405BD18374BB838465495D /* SumFinder.swift in Sources */,
+				558A66ED88E8778C3CBA2FADBADC20EF /* SumFinder-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,9 +439,9 @@
 			};
 			name = Debug;
 		};
-		439386A8D42E0342A781FF8161E8FFC7 /* Debug */ = {
+		10CA014D400F9C18AB9B107D87C6A229 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74003DF827DE8280966B09ADCC38C2DF /* SumFinder.debug.xcconfig */;
+			baseConfigurationReference = 5972E3FB0E2EA1C74F6FD977BA5235F0 /* SumFinder.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -463,7 +463,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -592,7 +592,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -632,9 +633,9 @@
 			};
 			name = Release;
 		};
-		C3D7BB220459D952C0ABBC90A591B95E /* Release */ = {
+		BF702C3AC798DC17E730846E89D78223 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2112326BCE68EE2062F560931CE3330A /* SumFinder.release.xcconfig */;
+			baseConfigurationReference = FF2269073D96FA2FEA1FEA6FCECAE357 /* SumFinder.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -656,7 +657,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -754,8 +755,8 @@
 		E4FB21274B128507DAFBD09FDA9E67BB /* Build configuration list for PBXNativeTarget "SumFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				439386A8D42E0342A781FF8161E8FFC7 /* Debug */,
-				C3D7BB220459D952C0ABBC90A591B95E /* Release */,
+				10CA014D400F9C18AB9B107D87C6A229 /* Debug */,
+				BF702C3AC798DC17E730846E89D78223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
