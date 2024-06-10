@@ -1,0 +1,6 @@
+framework module SumFinder {
+  umbrella header "SumFinder-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SumFinder_Example {
+  umbrella header "Pods-SumFinder_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

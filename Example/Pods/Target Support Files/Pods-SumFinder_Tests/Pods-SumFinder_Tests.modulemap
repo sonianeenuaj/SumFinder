@@ -1,0 +1,6 @@
+framework module Pods_SumFinder_Tests {
+  umbrella header "Pods-SumFinder_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

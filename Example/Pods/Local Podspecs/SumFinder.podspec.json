@@ -1,0 +1,22 @@
+{
+  "name": "SumFinder",
+  "version": "0.1.0",
+  "summary": "A short description of SumFinder.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sonianeenu-aj/SumFinder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sonianeenu-aj": "sonianeenu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Sonianeenu-aj/SumFinder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SumFinder/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SumFinder (0.1.0)
+
+DEPENDENCIES:
+  - SumFinder (from `../`)
+
+EXTERNAL SOURCES:
+  SumFinder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SumFinder: fab2d587a6319f926512fb5c8c1ddb193d111993
+
+PODFILE CHECKSUM: 0d148dfa6e1531c4f99108c817ccd867f5fa4cd1
+
+COCOAPODS: 1.15.2
